@@ -24,13 +24,6 @@ https://github.com/user-attachments/assets/6fb6e0f8-9d6f-405a-aca6-058d0cb58a17
 - Joy Stick for cursor control
 - Micro USB cable (for power and programming)
 
-## Software Dependencies
-
-- PlatformIO
-- Arduino framework for ESP32
-- USB HID library
-- Button debouncing library
-
 ## Installation
 
 ### Installing the Firmware
