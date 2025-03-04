@@ -35,20 +35,20 @@ void loop() {
   buttonVal = digitalRead(BUTTON_PIN);
   potVal = analogRead(POT_PIN);
 
-  Serial.print(", buttonVal: ");
-  Serial.print(buttonVal);
+  //Serial.print(", buttonVal: ");
+  //Serial.print(buttonVal);
 
-  Serial.print("potVal: ");
-  Serial.print(potVal);
+  //Serial.print("potVal: ");
+  //Serial.print(potVal);
 
   angle = floatMap(potVal, 0, 4095, 0, 3.3);
 
-  Serial.print(", angle: ");
-  Serial.println(angle);
+  //Serial.print(", angle: ");
+  //Serial.println(angle);
 
   if(bleMouse.isConnected()) 
   {
-    Serial.println("Move mouse pointer right");
+    //Serial.println("Move mouse pointer right");
     if(buttonVal==0)
     {
       bleMouse.move(1+angle,0);
@@ -66,12 +66,12 @@ void loop() {
   bValue = button.getState();
 
   if (button.isPressed()) {
-    Serial.println("The button is pressed");
+    //Serial.println("The button is pressed");
     // TODO do something here
   }
 
   if (button.isReleased()) {
-    Serial.println("The button is released");
+    //Serial.println("The button is released");
     // TODO do something here
   }
 
@@ -79,7 +79,7 @@ void loop() {
   Serial.print("x = ");
   Serial.print(valueX);
   Serial.print(", y = ");
-  Serial.print(valueY);
-  Serial.print(" : button = ");
-  Serial.println(bValue);
+  Serial.println(valueY);
+  //Serial.print(" : button = ");
+  //Serial.println(bValue);
 }
