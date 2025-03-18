@@ -6,7 +6,7 @@ A compact, programmable input peripheral that combines customizable buttons with
 
 OpenHIDevice is an open-source hardware project that creates a versatile input device combining the functionality of programmable buttons (similar to a Stream Deck) with mouse cursor control capabilities. Built around the ESP32 microcontroller, this device offers a space-efficient alternative to having multiple input peripherals.
 
-https://github.com/user-attachments/assets/15c544cc-acb0-47aa-90a2-82ebc2b00d73
+https://github.com/user-attachments/assets/e0051d7f-d629-42a8-adf9-8070602c8247
 
 ## Features
 
